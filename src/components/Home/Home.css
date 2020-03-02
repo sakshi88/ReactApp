@@ -1,0 +1,52 @@
+.App {
+    font-family: sans-serif;
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    height: 100vh;
+}
+
+.loginCard{
+    margin-top: 15%;
+}
+
+.headingLoginCard{
+    padding-top: 3vh;
+    font-size: 4vh;
+    color: #142850;
+}
+
+form {
+    max-width: 100%;
+    width: 100%;
+    padding: 5vh;
+    margin: 0 auto;
+}
+
+label,
+input {
+display: block;
+width: 100%;
+}
+
+label {
+margin-bottom: 5px;
+height: 22px;
+color: #0c7b93;
+}
+
+input {
+margin-bottom: 20px;
+padding: 7px;
+border-radius: 10px;
+border: 1px solid #0c7b93;
+}
+
+input.error {
+border-color: red;
+}
+
+.input-feedback {
+color: rgb(235, 54, 54);
+font-size: 2vh;
+margin-top: 1vh;
+margin-bottom: 1vh;
+}
